@@ -18,3 +18,5 @@
 
 (http://redprogramming.com/Getting%20Started.html)
 
+(https://stackoverflow.com/questions/27959901/red-error-word-has-no-value-when-calling-external-library-function)
+
