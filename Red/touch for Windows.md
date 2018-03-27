@@ -33,5 +33,5 @@ either not none? args [
 ```
 
 ## how to build
-Read the "Getting Started" instructions in this folder.
+Read the "Getting Started" instructions in this folder.   
 `red -c -t MSDOS touch.red`
