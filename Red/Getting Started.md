@@ -30,7 +30,7 @@ Install the `Red` extension for Visual Studio Code
 
 ### `hello.red` (new file)
 
-``` rebol
+``` red
 Red [Title: "Simple hello world script"]
 print "Hello World!"
 ```
