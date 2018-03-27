@@ -20,3 +20,4 @@
 
 (https://stackoverflow.com/questions/27959901/red-error-word-has-no-value-when-calling-external-library-function)
 
+(https://doc.red-lang.org/v/v0.6.0/Coding-Style-Guide.html)
