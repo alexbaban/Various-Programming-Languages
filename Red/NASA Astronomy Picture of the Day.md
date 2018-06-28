@@ -1,6 +1,7 @@
 # NASA’s Astronomy Picture of the Day
 
-Downloading a file from the Internet, currently, `read` can do this using the HTTP protocol...
+## Install the Red compiler  
+(https://github.com/alexbaban/Various-Programming-Languages/blob/master/Red/Getting%20Started.md)
 
 ## new file nasa.red
 
