@@ -1,6 +1,6 @@
 # NASA’s Astronomy Picture of the Day
 
-Downloading a file from the internet, currently, `read` can do this using the HTTP protocol...
+Downloading a file from the Internet, currently, `read` can do this using the HTTP protocol...
 
 ## new file nasa.red
 
