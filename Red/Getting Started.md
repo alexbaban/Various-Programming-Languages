@@ -7,7 +7,7 @@ Red is a next-gen programming language, strongly inspired by REBOL
 
 - download `red-[version].exe` (for example `red-063.exe`) from the website (http://www.red-lang.org)
 - copy `red-063.exe` to, let's say "C:\Portable\Red"
-- go to "C:\Portable\Red" and create new file `red.bat` with code `@"%~dp0red-exe.exe" %*`
+- go to "C:\Portable\Red" and create new file `red.bat` with code `@"%~dp0red-063.exe" %*`
 - add "C:\Portable\Red" to PATH
 - from "Command Prompt" as administrator execute `red.bat` for the first time (it will take some time to build)
 
