@@ -21,3 +21,7 @@
 (https://stackoverflow.com/questions/27959901/red-error-word-has-no-value-when-calling-external-library-function)
 
 (https://doc.red-lang.org/v/v0.6.0/Coding-Style-Guide.html)
+
+Book: "Learn Red - Fundamentals of Red" by Ivo Balbaert
+
+(https://dev.to/lepinekong/red-for-hopeless-programmers---part-i-3g0)
