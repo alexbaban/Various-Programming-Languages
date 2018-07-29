@@ -1,5 +1,6 @@
 # Read system environment variables
 
+* use `list-env` to get all environment variables/values 
 * use `get-env` to read environment variables  
 * use `set-env` to set environment variables
 
