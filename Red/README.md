@@ -25,3 +25,6 @@
 Book: "Learn Red - Fundamentals of Red" by Ivo Balbaert
 
 (https://dev.to/lepinekong/red-for-hopeless-programmers---part-i-3g0)
+
+REBOL 3 functions
+(http://www.rebol.com/r3/docs/functions.html)
