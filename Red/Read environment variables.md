@@ -1,4 +1,7 @@
-# Read system environment variable
+# Read system environment variables
+
+* use `get-env` to read environment variables  
+* use `set-env` to set environment variables
 
 `read-env.red`
 
