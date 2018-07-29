@@ -14,7 +14,7 @@ name: input
 print [name "is" length? name "characters long"]
 ```
  
-###Note:
+>Note:
 
 This needs the lates build and needs to be compiled `-r`  
 (https://github.com/red/red/wiki/%5BNOTES%5D-Compiling-with-console-functions)
