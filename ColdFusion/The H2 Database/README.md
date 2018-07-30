@@ -28,4 +28,34 @@ H2, the Java SQL database. The main features of H2 are:
   `jdbc:h2:~/databases/temp` or  
   `jdbc:h2:./databases/temp`
   
-  
+## Test table
+
+`test.cfm`
+
+```coldfusion
+<cfoutput>#now()#</cfoutput>
+<hr />
+
+<cfquery name="createTable" datasource="test" result="createTableResult">
+    CREATE TABLE Persons (
+        PersonID int,
+        LastName varchar(255),
+        FirstName varchar(255),
+        Address varchar(255),
+        City varchar(255)
+    )
+
+</cfquery>
+
+<cfdump var="#createTableResult#" label="Create Table Result" />
+<hr />
+
+
+<cfquery name="readTable" datasource="test">
+    SELECT * from Persons
+</cfquery>
+
+<cfdump var="#readTable#" label="Read Table Output" />
+<hr />
+
+```
