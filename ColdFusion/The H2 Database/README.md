@@ -14,7 +14,7 @@ H2, the Java SQL database. The main features of H2 are:
 
 * stop the ColdFusion server
 * download and install H2
-* copy `h2-1.4.197.jar` from the install directory to ColdFusion `WEB-INF\lib`
+* copy `h2-1.4.197.jar` from the install directory to ColdFusion install directory, `WEB-INF\lib` subfolder
 * start the ColdFusion server then login into "Administrator", then go to "Data Sources"
 * add new data source, "Driver" type "other"
 * type (do not copy + paste) `org.h2.Driver` into "Driver Class" field
