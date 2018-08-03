@@ -3,8 +3,8 @@
 Making HTTP requests is core functionality for modern languages.  
 We’ll be using NASA’s Astronomy Picture of the Day API (https://api.nasa.gov/api.html#apod) as the JSON API that we are interacting with.
 
-## Getting Set up w/ Silver on Windows
-(https://github.com/alexbaban/Swift/blob/master/Building%20Swift%20Code%20On%20Windows.md)
+## Getting Set up with the Silver compiler on Windows
+(https://github.com/alexbaban/Various-Programming-Languages/blob/master/Swift/Building%20Swift%20Code%20On%20Windows.md)
 
 ## new file `nasa.elements`
 
