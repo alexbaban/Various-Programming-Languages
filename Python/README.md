@@ -25,9 +25,10 @@ Flask is a micro web framework written in Python.
 - Open "Command Prompt" as administrator then run `pip install Flask`
 
 The following code shows a simple web application that prints "Hello World!"  
-`hello.py`
 
 ```python
+# // hello.py
+
 from flask import Flask
 app = Flask(__name__)
 
