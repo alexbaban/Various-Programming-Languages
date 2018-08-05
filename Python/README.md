@@ -19,6 +19,11 @@ Python is an interpreted high-level programming language for general-purpose pro
 
 To upgrade PIP, at administrator "Command Prompt" run `python -m pip install --upgrade pip`
 
+## Python extension for Visual Studio Code
+
+A Visual Studio Code extension with rich support for the Python language (2.7, >=3.4), including features such as linting, debugging, IntelliSense, code navigation, code formatting, refactoring, unit tests, snippets, and more!
+- (https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+
 ## Flask (web framework)
 
 Flask is a micro web framework written in Python.
