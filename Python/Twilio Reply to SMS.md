@@ -1,5 +1,9 @@
 # Twilio Reply to SMS
 
+At administrator "Command Prompt"
+- `pip install Flask`
+- `pip install twilio`
+
 - Flask app
 - Ngrok running on your localhost port
 - configure Twilio phone number to call the webhook URL 
