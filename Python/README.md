@@ -19,6 +19,9 @@ Python is an interpreted high-level programming language for general-purpose pro
 
 To upgrade PIP, at administrator "Command Prompt" run `python -m pip install --upgrade pip`
 
+## Third party libs
+> Python usually stores its library (and thereby your site-packages folder) in the installation directory. So, if you had installed Python to C:\Python\, the default library would reside in C:\Python\Lib\ and third-party modules should be stored in C:\Python\Lib\site-packages.
+
 ## Python extension for Visual Studio Code
 
 A Visual Studio Code extension with rich support for the Python language (2.7, >=3.4), including features such as linting, debugging, IntelliSense, code navigation, code formatting, refactoring, unit tests, snippets, and more!
