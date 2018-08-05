@@ -17,7 +17,7 @@ Python is an interpreted high-level programming language for general-purpose pro
 - at "Command Prompt" run `python --version`
 - also run `pip --version`
 
-To upgrade PIP, at administrator command prompt run `python -m pip install --upgrade pip`
+To upgrade PIP, at administrator "Command Prompt" run `python -m pip install --upgrade pip`
 
 ## Flask (web framework)
 
