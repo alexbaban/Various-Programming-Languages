@@ -59,9 +59,27 @@ print(len(bar))
 
 ```
 
-You can concatenate strings by adding them `+`
-There is a shortcut for concatenating the same string multiple times `print( 5 * foo)`
-`# prints "It's great...It's great...It's great...It's great...It's great..."`
+You can concatenate strings by adding them `+`  
+There is a shortcut for concatenating the same string multiple times 
+```python
+print( 5 * foo)
+# prints "It's great...It's great...It's great...It's great...It's great..."
+
+```
+
+## Listing Functions in a Module
+
+```
+# dir.py
+
+import math
+
+foo = dir(math)
+
+print(foo)
+
+```
+
 
 
 
