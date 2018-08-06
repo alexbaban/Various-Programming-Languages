@@ -80,6 +80,51 @@ print(foo)
 
 ```
 
+### Print a module's documentation
+
+`help(math)`
+
+## Converting integers and floats to string
+
+`foo = str(85)`
+`bar = str(-7.25)`
+
+## Rules for making variable names
+
+- the characters in a variable name must be letters, numbers or the underscore character
+- spaces, dashes, punctuation, quotation marks are not allowed
+- the first character cannot be a number, it must be a letter or underscore
+- Python is case sensitive
+- you cannot use Python keywords as variable names
+
+## More about variables 
+- assignments don't copy
+- numbers and strings are immutable
+- multiple assignment
+```python
+
+x, y, z = 1, 'two', 3.0
+print(x, y, z) 
+
+# prints "1 two 3.0"
+
+```
+
+- swapping variable values
+
+```python
+
+a, b = 5, 9
+a, b = b, a
+print(a, b)
+
+# prints "9 5"
+
+```
+
+
+
+
 
 
 
