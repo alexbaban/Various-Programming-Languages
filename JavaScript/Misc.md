@@ -10,3 +10,5 @@
 
 ## Reverse a string
 (https://github.com/mathiasbynens/esrever)
+
+```[...str].reduceRight( (prev, curr) => prev + curr )```
