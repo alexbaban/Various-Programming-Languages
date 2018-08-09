@@ -9,10 +9,4 @@
 ```
 
 ## Reverse a string
-```javascript
-
-var aString = 'foo';
-aString = aString.split('').reverse().join('');
-console.log(aString); // "oof"
-
-```
+(https://github.com/mathiasbynens/esrever)
