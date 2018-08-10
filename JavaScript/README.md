@@ -1,1 +1,3 @@
 # JavaScript
+
+(see Notes)
