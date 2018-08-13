@@ -30,11 +30,16 @@ The download is named red-[something], where [something] has to do with versioni
 - in your Terminal, go to the `red` folder with `cd ~/Desktop/red/`
 - do a `chmod +x red` to obtain executable rights
 - now run `./red` command (when doing this for the first time the "Red console" will be built)
+- after a little time the "Red console" will show up, and we can close it for now with `quit` + `Enter`
 
 
 ### Installing Red on Windows
 - create a new folder named "red" on your Desktop
-- move or copy the downloaded `red-[something]` in the `red` folder
+- move or copy the downloaded `red-[something].exe` in the `red` folder
+- make a new file `red.bat` with the following content `@"%~dp0red-[something].exe" %*`, save
+- in your "Command Prompt" go to the `red` folder with `cd c:\Users\(username)\Desktop\red\`
+- now run `red.bat` command (when doing this for the first time the "Red console" will be built)
+- after a little time the "Red console" will show up, and we can close it for now with `quit` + `Enter`
 
 <hr />
 
