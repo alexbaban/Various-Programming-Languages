@@ -25,9 +25,9 @@ The download is named red-[something], where [something] has to do with versioni
 
 ### Installing Red on macOS
 - create a new folder named `red` on your Desktop
-- move or copy the downloaded `red-[something]` in the `red` folder
+- move or copy the downloaded `red-[something]` to the `red` folder
 - for convenience rename the file to just `red`
-- in your Terminal, go to the `red` subfolder with `cd ~/Desktop/red/`
+- in your Terminal, go to the `red` folder with `cd ~/Desktop/red/`
 - do a `chmod +x red` to obtain executable rights
 - now run `./red` command (when doing this for the first time the "Red console" will be built)
 
