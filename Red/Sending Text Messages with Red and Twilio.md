@@ -11,6 +11,14 @@ _"A picture is worth a thousand words"_, our stand-alone GUI application will lo
 
 ![Red GUI](Sending%20Text%20Messages%20with%20Red%20and%20Twilio_1.png?raw=true "Sending Text Messages with Red and Twilio")
 
+It contains an input field for the destination phone number, another input field for the body of the message and a "Send" button. Pretty simple. Let's build this! (Oh..., and let's do it in 50 lines of code or less.)
+
+## Setting Up for Development
+
+To get started make sure you have:
+- A Twilio account [(sign up for a free Twilio account here)](https://www.twilio.com/try-twilio])
+- A Twilio phone number [(buy a phone number)](https://www.twilio.com/console/phone-numbers/search)
+
 <hr />
 
 ```red
