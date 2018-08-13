@@ -24,10 +24,17 @@ Next, let's install the Red toolchain. It comes as a single one-megabyte executa
 The download is named red-[something], where [something] has to do with versioning, (on Windows, the file also has an .exe extension). I suggest to download the "raw binary latest build", the direct links are at the bottom of the page.
 
 ### Installing Red on macOS
+- create a new folder named `red` on your Desktop
+- move or copy the downloaded `red-[something]` in the `red` folder
+- for convenience rename the file to just `red`
+- in your Terminal, go to the `red` subfolder with `cd ~/Desktop/red/`
+- do a `chmod +x red` to obtain executable rights
+- now run `./red` command (when doing this for the first time the "Red console" will be built)
+
 
 ### Installing Red on Windows
-
-
+- create a new folder named "red" on your Desktop
+- move or copy the downloaded `red-[something]` in the `red` folder
 
 <hr />
 
