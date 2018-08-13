@@ -9,7 +9,7 @@ As Gregg Irwin (Red Community Manager) puts it, we will look like superheroes, b
 
 _"A picture is worth a thousand words"_, our stand-alone GUI application will look something like this:
 
-[image]
+![Red GUI](Sending%20Text%20Messages%20with%20Red%20and%20Twilio_1.png?raw=true "Sending Text Messages with Red and Twilio")
 
 <hr />
 
