@@ -124,7 +124,7 @@ We then build the value for the `api-url:` variable by joining Twilio's API spec
 
 The `auth-string:` is built by Base64 encoding of `twilio-account-sid ":" twilio-auth-token`.
 
-Next, we define a function `send-message: does`, this function is executed when we press the "Send" button on the interface. The function contains code that makes a POST request to Twilio, sending the authentication values as well as values extracted from the "To:" and "Message" fields. 
+Next, we define a function `send-message: does`, this function is executed when we press the "Send" button on the interface. The function contains code that makes a POST request to Twilio, sending the authentication values as well as values extracted from the "To (phone number):" and "Message:" fields. 
 
 The code inside `view [...]` builds the interface and really is self-explanatory.
 
