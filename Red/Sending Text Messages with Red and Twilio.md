@@ -15,7 +15,7 @@ It contains an input field for the destination phone number, another input field
 
 ## Setting Up for Development
 
-To get started make sure you have:
+To get started we need:
 - A Twilio account [(sign up for a free Twilio account here)](https://www.twilio.com/try-twilio])
 - A Twilio phone number [(buy a phone number)](https://www.twilio.com/console/phone-numbers/search)
 
@@ -41,8 +41,22 @@ The download is named red-[something], where [something] has to do with versioni
 - now run `red.bat` command (when doing this for the first time the "Red console" will be built)
 - after a bit of time the "Red console" will show up, and we can close it for now with `quit` + `Enter`
 
-<hr />
+## The fun part, getting our hands dirty and actually write some Red code
 
+In our `red` folder, we'll create two text files, a `.env` file to store our Twilio credentials and a `twilio-sms.red` file with the code of our application.
+
+### `.env`
+```
+TWILIO_ACCOUNT_SID = ACe92063f2ef7820a132d7ff5a5ec2666f
+TWILIO_AUTH_TOKEN = 9d80bb08fb99cf0c2d04dc40c1c824df
+TWILIO_PHONE_NUMBER = +19997775555
+DEFAULT_TO_NUMBER = +13335557777
+```
+Replace values with your Twilio credentials, these here are just mock values. Also the `DEFAULT_TO_NUMBER` line is optional, if skipped the "To (number):" field will not be prepopulated.
+
+The "spaces" surrounding the `=` signs are needed like they are, so the values can be parsed properly. 
+
+### `twilio-sms.red`
 ```red
 Red [
     title: "Sending Text messages with Red and Twilio"
