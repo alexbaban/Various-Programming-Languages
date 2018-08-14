@@ -112,3 +112,33 @@ view [
 
 ```
 
+Let's examine the code.
+
+`needs: 'view` tells the compiler that this is a GUI application
+
+Next, with `env-contents: read/lines %.env` we read the contents of the `.env` file and save them into a variable `env-contents:` 
+
+The following lines of code, extract (parse) our Twilio credentials as well as the values for the phone numbers and save them into variables.
+
+We then build the value for the `api-url:` variable by joining Twilio's API specific strings and the content of `twilio-account-sid:`, then casting the result to a `url!` data type.
+
+The `auth-string:` is built by Base64 encoding of twilio-account-sid ":" twilio-auth-token.
+
+Next, we define a function `send-message: does`, this function is executed when we press the "Send" button on the interface. The function contains code that makes a POST request to Twilio, sending the authentication values as well as values extracted from the "To:" and "Message" fields. 
+
+The code inside `view [...]` builds the interface and really is self-explanatory.
+
+## The moment of truth, build and run
+- in your Terminal, from inside the `red` folder run `./red -r -t macOS twilio-sms.red`
+- if you're on Windows run `red.bat -r -t Windows twilio-sms.red`
+
+On macOS a `twilio-sms.app` will be created, on Windows a `twilio-sms.exe` will be created. On macOS we might need to run `chmod +x twilio-sms.app` to make it executable.
+
+Double-click on the executable to launch the application.
+
+A nice thing about Red is that we can cross-compile. We can also build the app for other operating systems if we change the argument of the `-t` flag, like `./red -r -t Windows twilio-sms.red` to build for Windows and `red.bat -r -t macOS twilio-sms.red` for macOS even if we're working on the opposite platform.
+
+So, there you have it, we just built a cross-platform, portable, no dependencies small in size, GUI application that we can use to send messages via Twilio.
+
+
+
