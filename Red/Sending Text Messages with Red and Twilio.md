@@ -111,9 +111,7 @@ The code inside `view [...]` builds the interface and really is self-explanatory
 - in your Terminal, from inside the `red` folder run `./red -r -t macOS twilio-sms.red`
 - if you're on Windows run `red.bat -r -t Windows twilio-sms.red`
 
-On macOS a `twilio-sms.app` will be created, on Windows a `twilio-sms.exe` will be created. On macOS we might need to run `chmod +x twilio-sms.app` to make it executable.
-
-Double-click on the executable to launch the application.
+On macOS a `twilio-sms.app` will be created, on Windows a `twilio-sms.exe` will be created. Double-click on the executable to launch the application.
 
 A nice thing about the Red compiler is that we can cross-compile. 
 
