@@ -21,7 +21,7 @@ To get started we need:
 
 Next, let's install the Red toolchain. It comes as a single one-megabyte executable file, and we'll download it from here: http://www.red-lang.org/p/download.html
 
-The download is named red-[something], where [something] has to do with versioning, (on Windows, the file also has an .exe extension). I suggest to download the "raw binary latest build", the direct links are at the bottom of the page.
+The download is named red-[something], where [something] has to do with versioning, (on Windows, the file also has an .exe extension).
 
 ### Installing Red on macOS
 - create a new folder named `red` on your Desktop
