@@ -43,7 +43,7 @@ The download is named red-[something], where [something] has to do with versioni
 
 ## The fun part, getting our hands dirty and actually write some Red code
 
-In our `red` folder, we'll create a text file `twilio-sms.red` file with the code of our application.
+In our `red` folder, we'll create a text file `twilio-sms.red` with the code of our application.
 
 ### `twilio-sms.red`
 ```red
