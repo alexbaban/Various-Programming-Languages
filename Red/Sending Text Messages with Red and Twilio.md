@@ -43,18 +43,7 @@ The download is named red-[something], where [something] has to do with versioni
 
 ## The fun part, getting our hands dirty and actually write some Red code
 
-In our `red` folder, we'll create two text files, a `.env` file to store our Twilio credentials and a `twilio-sms.red` file with the code of our application.
-
-### `.env`
-```
-TWILIO_ACCOUNT_SID = ACe92063f2ef7820a132d7ff5a5ec2666f
-TWILIO_AUTH_TOKEN = 9d80bb08fb99cf0c2d04dc40c1c824df
-TWILIO_PHONE_NUMBER = +19997775555
-DEFAULT_TO_NUMBER = +17775553333
-```
-Replace values with your Twilio credentials, these here are just mock values. Also the `DEFAULT_TO_NUMBER` line is optional, if skipped the "To (number):" field will not be prepopulated.
-
-The "spaces" surrounding the `=` signs are needed like they are, so the values can be parsed properly. 
+In our `red` folder, we'll create a text file `twilio-sms.red` file with the code of our application.
 
 ### `twilio-sms.red`
 ```red
@@ -63,17 +52,9 @@ Red [
     needs: 'view                          
 ]
 
-env-contents: read/lines %.env
-
-twilio-account-sid: skip find first env-contents " = " 3
-twilio-auth-token: skip find second env-contents " = " 3
-twilio-phone-number: skip find third env-contents " = " 3
-
-either [find fourth env-contents " = "] = none [
-    default-to-number: ""  
-][
-    default-to-number: skip find fourth env-contents " = " 3    
-]
+twilio-account-sid: "ACe92063f2ef7820a132d7ff5a5ec2666f"
+twilio-auth-token: "9d80bb08fb99cf0c2d04dc40c1c824df"
+twilio-phone-number: "+19997775555"
 
 api-url: to url! rejoin ["https://api.twilio.com/2010-04-01/Accounts/" twilio-account-sid "/Messages.json"]
 auth-string: rejoin ["Basic " enbase/base rejoin [twilio-account-sid ":" twilio-auth-token] 64]
@@ -100,7 +81,7 @@ view [
     below 
 
     text "To (phone number):" 
-    to-number: field 100x30 default-to-number
+    to-number: field 100x30
 
     text "Message:" 
     message-body: field 500x30 
@@ -114,11 +95,9 @@ view [
 
 Let's examine the code.
 
-`needs: 'view` tells the compiler that this is a GUI application
+`needs: 'view` tells the compiler that this is a GUI application 
 
-Next, with `env-contents: read/lines %.env` we read the contents of the `.env` file and save them into a variable `env-contents:` 
-
-The following lines of code, extract (parse) our Twilio credentials as well as the values for the phone numbers and save them into variables.
+The following lines of code, assign our Twilio credentials as well as our Twilio number to variables.
 
 We then build the value for the `api-url:` variable by joining Twilio's API specific strings and the content of `twilio-account-sid:`, then casting the result to a `url!` data type.
 
