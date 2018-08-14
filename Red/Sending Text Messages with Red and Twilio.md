@@ -122,7 +122,7 @@ The following lines of code, extract (parse) our Twilio credentials as well as t
 
 We then build the value for the `api-url:` variable by joining Twilio's API specific strings and the content of `twilio-account-sid:`, then casting the result to a `url!` data type.
 
-The `auth-string:` is built by Base64 encoding of twilio-account-sid ":" twilio-auth-token.
+The `auth-string:` is built by Base64 encoding of `twilio-account-sid ":" twilio-auth-token`.
 
 Next, we define a function `send-message: does`, this function is executed when we press the "Send" button on the interface. The function contains code that makes a POST request to Twilio, sending the authentication values as well as values extracted from the "To:" and "Message" fields. 
 
