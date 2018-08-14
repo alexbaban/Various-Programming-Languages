@@ -113,9 +113,7 @@ The code inside `view [...]` builds the interface and really is self-explanatory
 
 On macOS a `twilio-sms.app` will be created, on Windows a `twilio-sms.exe` will be created. Double-click on the executable to launch the application.
 
-A nice thing about the Red compiler is that we can cross-compile. 
-
-We can build the app for other operating systems if we change the argument of the `-t` (target) flag, like 
+A nice thing about the Red compiler is that we can cross-compile. We can build the app for other operating systems if we change the argument of the `-t` (target) flag, like 
 - `./red -r -t Windows twilio-sms.red` to build for Windows on macOS and 
 - `red.bat -r -t macOS twilio-sms.red` to build for macOS on Windows.
 
