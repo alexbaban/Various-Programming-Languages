@@ -50,7 +50,7 @@ In our `red` folder, we'll create two text files, a `.env` file to store our Twi
 TWILIO_ACCOUNT_SID = ACe92063f2ef7820a132d7ff5a5ec2666f
 TWILIO_AUTH_TOKEN = 9d80bb08fb99cf0c2d04dc40c1c824df
 TWILIO_PHONE_NUMBER = +19997775555
-DEFAULT_TO_NUMBER = +13335557777
+DEFAULT_TO_NUMBER = +17775553333
 ```
 Replace values with your Twilio credentials, these here are just mock values. Also the `DEFAULT_TO_NUMBER` line is optional, if skipped the "To (number):" field will not be prepopulated.
 
