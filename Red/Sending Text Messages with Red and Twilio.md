@@ -97,7 +97,7 @@ Let's examine the code.
 
 `needs: 'view` tells the compiler that this is a GUI application 
 
-The following lines of code, assign our Twilio credentials as well as our Twilio number to variables.
+The following lines of code, assign our Twilio credentials as well as our Twilio number to variables. Replace the values with your Twilio credentials, these here are just mock values.
 
 We then build the value for the `api-url:` variable by joining Twilio's API specific strings and the content of `twilio-account-sid:`, then casting the result to a `url!` data type.
 
