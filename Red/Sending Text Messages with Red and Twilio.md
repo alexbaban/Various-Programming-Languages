@@ -115,7 +115,9 @@ On macOS a `twilio-sms.app` will be created, on Windows a `twilio-sms.exe` will 
 
 A nice thing about the Red compiler is that we can cross-compile. 
 
-We can build the app for other operating systems if we change the argument of the `-t` (target) flag, like `./red -r -t Windows twilio-sms.red` to build for Windows on macOS and `red.bat -r -t macOS twilio-sms.red` to build for macOS on Windows.
+We can build the app for other operating systems if we change the argument of the `-t` (target) flag, like 
+- `./red -r -t Windows twilio-sms.red` to build for Windows on macOS and 
+- `red.bat -r -t macOS twilio-sms.red` to build for macOS on Windows.
 
 So, there you have it, we just built a cross-platform, portable, no dependencies small in size (~1MB), GUI application that we can use to send messages via Twilio.
 
