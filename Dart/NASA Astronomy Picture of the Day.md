@@ -31,6 +31,7 @@ Future main() async {
 
 ## Using then
 
+``` dart
 // nasa.dart
 // https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY
 
@@ -59,3 +60,5 @@ client.getUrl(Uri.parse(aString))
     });
 
 }
+
+```
