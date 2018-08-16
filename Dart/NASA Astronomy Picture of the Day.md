@@ -57,6 +57,9 @@ client.getUrl(Uri.parse(aString))
       response.transform(utf8.decoder).listen((contents){
         print(contents);
       });
+    })
+    .catchError((error) {
+      print(error);
     });
 
 }
