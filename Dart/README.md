@@ -9,6 +9,9 @@ Use this archive to download specific versions of the Dart SDK and the Dart API 
 - Add (C:\Portable\dart-sdk\bin\) to PATH
 - Open "Command Prompt" and run `dart --version`
 
+## Visual Studio Code Extension
+- (https://marketplace.visualstudio.com/items?itemName=Dart-Code.dart-code)
+
 ## Dart Hello World
 Open "Command Prompt" and
 
