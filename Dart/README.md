@@ -14,11 +14,13 @@ Use this archive to download specific versions of the Dart SDK and the Dart API 
 - `cd dart-hello`
 - `touch hello.dart && code .`
 
-`hello.dart`
 ```dart
+// hello.dart
+
 void main() {
   print('Hello, World!');
 }
 
 ```
+
 - Open "Command Prompt" and run `dart hello.dart`
