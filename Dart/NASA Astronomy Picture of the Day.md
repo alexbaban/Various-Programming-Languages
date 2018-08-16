@@ -2,6 +2,7 @@
 
 HTTP GET request to `https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY`
 - it will return JSON
+- (https://www.dartlang.org/tutorials/language/streams)
 
 Open "Command Prompt" and
 - `cd /apps/dart-hello && touch nasa.dart`
