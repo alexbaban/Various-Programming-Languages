@@ -10,6 +10,8 @@ Use this archive to download specific versions of the Dart SDK and the Dart API 
 - Open "Command Prompt" and run `dart --version`
 
 ## Dart Hello World
+Open "Command Prompt" and
+
 - `cd /apps && mkdir dart-hello`
 - `cd dart-hello`
 - `touch hello.dart && code .`
@@ -23,4 +25,4 @@ void main() {
 
 ```
 
-- Open "Command Prompt" and run `dart hello.dart`
+- run `dart hello.dart`
