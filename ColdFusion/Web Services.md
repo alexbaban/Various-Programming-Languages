@@ -104,9 +104,9 @@ Although in a production environment `refreshWSDL` should be `false`, this is it
 <cfset varStruct = {key1:"value 1", key2:"value 2"} />
 
 <cfinvoke 
-	webservice = "#wsURL#"
-	method = "echoStruct"
-	returnVariable = "result">
+    webservice = "#wsURL#"
+    method = "echoStruct"
+    returnVariable = "result">
 	
    <cfinvokeargument name="argStruct" value="#varStruct#" />
    
@@ -122,10 +122,10 @@ Although in a production environment `refreshWSDL` should be `false`, this is it
 <cfset queryAddRow( varQuery, ["row 1", "row 2", "row 3"] ) />
 
 <cfinvoke 
-	webservice = "#wsURL#"
-	method = "echoQuery"
-	argQuery = "#varQuery#"
-	returnVariable = "result">
+    webservice = "#wsURL#"
+    method = "echoQuery"
+    argQuery = "#varQuery#"
+    returnVariable = "result">
 />
 
 <cfdump var="#result#" />
@@ -135,7 +135,7 @@ Although in a production environment `refreshWSDL` should be `false`, this is it
 **Passing arguments as argument collection**
 ```coldfusion
 <cfinvoke 
-	webservice = "#wsURL#"
+    webservice = "#wsURL#"
     method = "echoAny"
     argumentCollection = "#{ argAny: 'passing a string' }#"
     returnVariable = "result"
