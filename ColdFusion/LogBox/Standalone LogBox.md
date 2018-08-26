@@ -22,8 +22,11 @@ Install LogBox (https://logbox.ortusbooks.com/getting-started/installation)
 
 	<cffunction name = "onApplicationStart" returnType = "boolean" output = "false" >
 		<cfscript>
-			var config = createObject("component", "logbox.system.logging.config.LogBoxConfig").init(CFCConfigPath = "aLogBoxConfig");
-			application.logBox = createObject("component", "logbox.system.logging.LogBox").init(config);
+			var config = createObject("component", "logbox.system.logging.config.LogBoxConfig")
+				.init(CFCConfigPath = "aLogBoxConfig");
+				
+			application.logBox = createObject("component", "logbox.system.logging.LogBox")
+				.init(config);
 			
 			return true;
 		</cfscript>
