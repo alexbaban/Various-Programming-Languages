@@ -8,8 +8,8 @@ Install LogBox (https://logbox.ortusbooks.com/getting-started/installation)
 \box-log
     logbox\
     Application.cfc
+    aLogBoxConfig.cfc    
     index.cfm
-    aLogBoxConfig.cfc
 
 ```
 
