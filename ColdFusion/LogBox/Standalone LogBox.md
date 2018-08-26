@@ -5,7 +5,7 @@ Install LogBox (https://logbox.ortusbooks.com/getting-started/installation)
 
 ## Application Structure
 ```
-\foo-box
+\box-log
     logbox\
     Application.cfc
     index.cfm
