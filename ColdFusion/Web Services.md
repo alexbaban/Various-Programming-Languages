@@ -69,5 +69,13 @@ When writing CFCs in script syntax, we can use the `createObject()` method to in
 
 ```
 
-   
+### Refreshing Stubs
+
+ColdFusion optimizes the creation of a web service operation significantly. ColdFusion makes a call to get the WSDL and generates the required stubs and artifacts only for the first call to the web service, using `<cfinvoke>` or `<cfobject>`.
+
+This optimization creates a challenge in a development environment in which CFCs are being constantly modified. ColdFusion does not implicitly refresh the stubs for changed WSDL. 
+
+The clients themselves have to refresh these stubs every time the WSDL changes. This operation can be accomplished by setting the `refreshWSDL` attribute as `true` with `<cfinvoke>` or `<cfobject>`. 
+
+Although in a production environment `refreshWSDL` should be `false`, this is its default value, too.
    
