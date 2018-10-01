@@ -28,3 +28,5 @@ Book: "Learn Red - Fundamentals of Red" by Ivo Balbaert
 
 REBOL 3 functions
 (http://www.rebol.com/r3/docs/functions.html)
+
+Helpin'Red (http://helpin.red/)
