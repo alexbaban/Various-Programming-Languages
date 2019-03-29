@@ -11,6 +11,8 @@ void setup() {
   Wire.begin();
   delay(500);
   
+  // formula to calculate decimal value of PLL word
+  // high side injection
   int frequencyB = 4 * (frequency * 1000000 + 225000) / 32768;
   byte frequencyH = frequencyB >> 8;
   byte frequencyL = frequencyB & 0xFF;
