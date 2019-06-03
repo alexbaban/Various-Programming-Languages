@@ -5,8 +5,8 @@ PureBasic website: (http://www.purebasic.com/)
 
 ## Hello World
 
-Download and unzip to some "temp" folder then install to `C:\Program Files\PureBasic`
-Launch PureBasic
+Download and unzip to some "temp" folder then install to `C:\Program Files\PureBasic`  
+Launch PureBasic IDE  
 
 ```lisp
 
