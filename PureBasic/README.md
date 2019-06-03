@@ -8,7 +8,7 @@ PureBasic website: (http://www.purebasic.com/)
 Download and unzip to some "temp" folder then install to `C:\Program Files\PureBasic`
 Launch PureBasic
 
-```
+```lisp
 
 ; Description: Hello World in PureBasic
 ; Author: Alex Baban
@@ -22,7 +22,7 @@ foo$ = "Hello World!"
 ; show output
 PrintN(foo$)
 
-; show for one second
+; pause for one second
 Delay(1000)
 
 ; end program
@@ -30,6 +30,8 @@ End
 
 ```
 
-Save to `C:\apps\purebasic-hello\hello.pb`
-"Compiler" > "Compile/Run"
+Click "File" > "Save As..." then save (source code) to `C:\apps\purebasic-hello\hello.pb`  
+Click "Compiler" > "Compile/Run" to test  
+Click "Compiler" > "Create Executable..." then save (executable) to `hello.exe`  
+Run `C:\apps\purebasic-hello\hello.exe`
 
