@@ -5,8 +5,8 @@ PureBasic website: (http://www.purebasic.com/)
 
 ## Hello World
 
-Download and unzip to some "temp" folder then install to `C:\Program Files\PureBasic`  
-Launch PureBasic IDE  
+ - Download and unzip to some "temp" folder then install to `C:\Program Files\PureBasic`  
+ - Launch PureBasic IDE  
 
 ```lisp
 
@@ -30,8 +30,8 @@ End
 
 ```
 
-Click "File" > "Save As..." then save (source code) to `C:\apps\purebasic-hello\hello.pb`  
-Click "Compiler" > "Compile/Run" to test  
-Click "Compiler" > "Create Executable..." then save (executable) to `hello.exe`  
-Run `C:\apps\purebasic-hello\hello.exe`
+ - Click "File" > "Save As..." then save (source code) to `C:\apps\purebasic-hello\hello.pb`  
+ - Click "Compiler" > "Compile/Run" to test  
+ - Click "Compiler" > "Create Executable..." then save (executable) to `hello.exe`  
+ - Run `C:\apps\purebasic-hello\hello.exe`
 
