@@ -10,7 +10,7 @@ fun main() {
   println("Hello Kotlin/Native!");
 }
 ```
-### How to compile this and make it `hello.exe` Windows command line executable
+### How to compile `hello.kt` and make a `hello.exe` Windows command line executable
 
 - from `https://github.com/JetBrains/kotlin-native/releases` download the `kotlin-native-windows-x.x.x.zip` binary distribution
 - next download from `https://download.jetbrains.com/kotlin/native/libffi-3.2.1-mingw-w64-x86-64.zip`
@@ -22,3 +22,8 @@ fun main() {
 - `cd %HOMEPATH%\.konan` and then `mkdir dependencies`
 - unzip `libffi-3.2.1-mingw-w64-x86-64.zip` to `libffi-3.2.1-mingw-w64-x86-64` inside `.konan`
 - unzip `msys2-mingw-w64-x86_64-gcc-7.3.0-clang-llvm-lld-6.0.1.zip` to `msys2-mingw-w64-x86_64-gcc-7.3.0-clang-llvm-lld-6.0.1` inside `.konan`
+<hr />
+
+While the output of the compiler does not have any dependencies or virtual machine requirements, the compiler itself requires a Java 1.8 or 11 runtime.
+- search Google for `download jre`
+- download and install JRE
