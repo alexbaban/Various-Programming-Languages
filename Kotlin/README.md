@@ -12,6 +12,8 @@ fun main() {
 ```
 ### How to compile `hello.kt` and make a `hello.exe` Windows command line executable
 
+Inspired from (https://kotlinlang.org/docs/tutorials/native/basic-kotlin-native-app.html)
+
 Setting up the Kotlin/Native compiler:   
    
 - from `https://github.com/JetBrains/kotlin-native/releases` download the `kotlin-native-windows-x.x.x.zip` binary distribution
