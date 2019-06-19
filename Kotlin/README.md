@@ -12,7 +12,7 @@ fun main() {
 ```
 ### How to compile `hello.kt` and make a `hello.exe` Windows command line executable
 
-- Inspired from (https://kotlinlang.org/docs/tutorials/native/basic-kotlin-native-app.html)
+- inspired from (https://kotlinlang.org/docs/tutorials/native/basic-kotlin-native-app.html)
 
 Setting up the Kotlin/Native compiler:   
    
