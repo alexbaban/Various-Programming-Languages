@@ -26,7 +26,7 @@ Setting up the Kotlin/Native compiler:
 - `cd %HOMEPATH%\.konan` and then `mkdir dependencies`
 - unzip `libffi-3.2.1-mingw-w64-x86-64.zip` to `libffi-3.2.1-mingw-w64-x86-64` inside `.konan\dependencies`
 - unzip `msys2-mingw-w64-x86_64-gcc-7.3.0-clang-llvm-lld-6.0.1.zip` to `msys2-mingw-w64-x86_64-gcc-7.3.0-clang-llvm-lld-6.0.1` inside `.konan\dependencies`
-- inside `.konan\dependencies` create a new **file** named `extracted` with this text:
+- inside `.konan\dependencies` create a new **file** named `.extracted` with this text:
 ```
 msys2-mingw-w64-x86_64-gcc-7.3.0-clang-llvm-lld-6.0.1
 libffi-3.2.1-mingw-w64-x86-64
