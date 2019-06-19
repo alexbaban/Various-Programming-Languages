@@ -34,3 +34,11 @@ While the output of the compiler does not have any dependencies or virtual machi
    
 - search Google for `download jre`
 - download and install JRE
+
+Compiling the code from the console
+
+- create folder `c:\apps\kotlin-foo\`
+- create file `hello.kt`
+- open terminal and `cd c:\apps\kotlin-foo`
+- compile with `kotlinc-native hello.kt -o hello`
+- run `hello.exe`
