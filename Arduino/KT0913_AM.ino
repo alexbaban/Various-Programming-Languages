@@ -21,13 +21,11 @@ void setup() {
    //// AM Mode Control
    Wire.beginTransmission(0x35);
 
-   // register
+   // register address
    Wire.write(0x16);
        
    // data
    Wire.write(0b10000000);   
-     
-   // data
    Wire.write(0b00000010); 
       
    Wire.endTransmission();   
@@ -37,13 +35,11 @@ void setup() {
    //// AM DSP
    Wire.beginTransmission(0x35);
 
-   // register
+   // register address
    Wire.write(0x22);
   
    // data
    Wire.write(0b10100010);
-  
-   // data
    Wire.write(0b00000100);
       
    Wire.endTransmission();   
@@ -53,13 +49,11 @@ void setup() {
    //// AM Tune Enable, AM Channel Setting
    Wire.beginTransmission(0x35);
 
-   // register
+   // register address
    Wire.write(0x17);
        
    // data
    Wire.write(0b10000000 | (channel >> 8));
-      
-   // data
    Wire.write(0b11111111 & channel);
       
    Wire.endTransmission();   
@@ -74,8 +68,6 @@ void setup() {
        
    // data
    Wire.write(0b10001000);   
-     
-   // data
    Wire.write(0b00011111); 
       
    Wire.endTransmission();   
