@@ -32,8 +32,24 @@ void setup() {
       
    Wire.endTransmission();   
    delay(100); 
+  
    
+   //// AM DSP
+   Wire.beginTransmission(0x35);
 
+   // register
+   Wire.write(0x22);
+  
+   // data
+   Wire.write(0b10100010);
+  
+   // data
+   Wire.write(0b00000100);
+      
+   Wire.endTransmission();   
+   delay(100);
+  
+  
    //// AM Tune Enable, AM Channel Setting
    Wire.beginTransmission(0x35);
 
