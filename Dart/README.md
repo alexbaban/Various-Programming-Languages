@@ -37,4 +37,4 @@ Use the dart2native command to AOT (ahead-of-time) compile a Dart program to nat
 
 The default output of dart2native is a standalone executable. A standalone executable is native machine code that’s compiled from the specified Dart file and its dependencies, plus a small Dart runtime that handles type checking and garbage collection.
 
-run `dart2native hello.dart` or `dart2native hello.dart -o hello.exe`
+- run `dart2native hello.dart` or `dart2native hello.dart -o hello.exe`
