@@ -8,7 +8,7 @@ Open "Command Prompt" and
 - `cd /apps/dart-hello && touch nasa.dart`
 - `code .`
 
-## Using asinc/await
+## Using async/await
 
 ```dart
 // nasa.dart
